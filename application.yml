@@ -1,5 +1,6 @@
 server:
   port: 7001
+name: bhaskar  
 spring:  application:    name: EmployeClient
   
 eureka:  client:    fetch-registry: true  
