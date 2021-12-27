@@ -1,0 +1,22 @@
+server:
+  port: 7001
+spring:
+  application:
+    name: EmployeClient
+  
+eureka:
+  client:
+    fetch-registry: true  
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:5001/eureka
+---
+spring:
+  profiles: EC1
+server:
+  port: 7002   
+---
+spring:
+  profiles: EC2  
+server:
+  port: 7003
