@@ -3,7 +3,7 @@ server:
 spring:
   application:
     name: EmployeClient
-  
+city: hyd  
 eureka:
   client:
     fetch-registry: true  
